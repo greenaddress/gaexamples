@@ -1,0 +1,30 @@
+Automat==0.6.0 --hash=sha256:2140297df155f7990f6f4c73b2ab0583bd8150db9ed2a1b48122abe66e9908c1
+Twisted==17.5.0 --hash=sha256:f198a494f0df2482f7c5f99d7f3eef33d22763ffc76641b36fec476b878002ea
+asn1crypto==0.22.0 --hash=sha256:d232509fefcfcdb9a331f37e9c9dc20441019ad927c7d2176cf18ed5da0ba097
+attrs==17.2.0 --hash=sha256:a7e0d9183f6457de12df7ba6a81f6569c7d6b25f67ad509b5ad52e8545970a2f
+autobahn-sync==0.3.2 --hash=sha256:1b9aebab11680005fde3c0e9d0cf5d24929f0b01336f06b866c1cea0408bf6d0
+autobahn==17.8.1 --hash=sha256:8f18b65879954bac0071a9a4e96d057786251d2aca4da3889a6003b742269397
+cffi==1.10.0 --hash=sha256:c49187260043bd4c1d6a52186f9774f17d9b1da0a406798ebf4bfc12da166ade --hash=sha256:4fc9c2ff7924b3a1fa326e1799e5dd58cac585d7fb25fe53ccaa1333b0453d65
+constantly==15.1.0 --hash=sha256:dd2fa9d6b1a51a83f0d7dd76293d734046aa176e384bf6e33b7e44880eb37c5d
+crochet==1.9.0 --hash=sha256:066c01d6ec11c39cc53032e48adaf1668120d6623132009664b6b4721236551f
+cryptography==2.0.3 --hash=sha256:795af466e52daf404d783877157b106bc79e0cffa55f8d6360fa9f9fd03148bd --hash=sha256:55cc98c93323efcf6f3300b6e9a7d435146a9d451ffd27aa14074f576f275786
+enum34==1.1.6 --hash=sha256:6bd0f6ad48ec2aa117d3d141940d484deccda84d4fcd884f5c3d93c23ecd8c79 --hash=sha256:644837f692e5f550741432dd3f223bbb9852018674981b1664e5dc339387588a
+hyperlink==17.3.1 --hash=sha256:1ec8e11fb4f5b330f25864bf8cfd3133dff1a3637dfd14fa441297df15fc7cf9
+idna==2.6 --hash=sha256:8c7309c718f94b3a625cb648ace320157ad16ff131ae0af362c9f21b80ef6ec4
+incremental==17.5.0 --hash=sha256:717e12246dddf231a349175f48d74d93e2897244939173b01974ab6661406b9f
+ipaddress==1.0.18 --hash=sha256:d34cf15d95ce9a734560f7400a8bd2ac2606f378e2a1d0eadbf1c98707e7c74a --hash=sha256:5d8534c8e185f2d8a1fda1ef73f2c8f4b23264e8e30063feeb9511d492a413e1
+pyOpenSSL==17.2.0 --hash=sha256:c8959e441c2d85d646f3d6e9024ec02b2fc8dda92596e44ce3460b3a476bc694
+pyasn1==0.3.3 --hash=sha256:e52133f71566acc12fd7029e208ae9d08a3db656eca634f6484467beb3b18f8f
+pyasn1_modules==0.0.11 --hash=sha256:c5af54f68f754e0cfb2990c0c836df07afe5bd622bf5f33a4f60a49a4877764d
+pycparser==2.18 --hash=sha256:99a8ca03e29851d96616ad0404b4aad7d9ee16f25c9f9708a11faf2810f7b226
+service_identity==17.0.0 --hash=sha256:0e76f3c042cc0f5c7e6da002cf646f59dc4023962d1d1166343ce53bdad39e17
+setuptools==36.2.7 --hash=sha256:02b5f3869777dfbfbe3786a057bc6d523445a3e541a0abdf85adbe0b091e96b9
+six==1.10.0 --hash=sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1
+txaio==2.8.1 --hash=sha256:1f22d32ad4c51d07ab5ef2c10ceb982d9f9b5fcfe4c03a08118dd0cf4b7ebb9d
+wrapt==1.10.11 --hash=sha256:d4d560d479f2c21e1b5443bbd15fe7ec4b37fe7e53d335d3b9b0a7b1226fe3c6
+zope.interface==4.4.2 --hash=sha256:c55003bf2ab1046dbc0e79a4a9ac7af2f5800ed6ec4cb8e35fc3c99a21f380a8 --hash=sha256:f7cbfd9698c16cb2ed164e7b9e4b3a24217e51fccfd95c3fd3dcca9bc1e7c9e9
+https://github.com/ElementsProject/libwally-core/releases/download/release_0.4.0/wallycore-0.4.0-cp27-cp27mu-linux_x86_64.whl; 'linux' in sys_platform and python_version == '2.7' and platform_machine == 'x86_64' --hash=sha256:d692be12dbfc2447a92028784a166b1c60162c59ecd1059a886b7a45ab4eae00
+https://github.com/ElementsProject/libwally-core/releases/download/release_0.4.0/wallycore-0.4.0-cp35-cp35m-linux_x86_64.whl; 'linux' in sys_platform and python_version == '3.5' and platform_machine == 'x86_64' --hash=sha256:58726a4c1cda61191376f99753ed79445bc31408eca4d83b4156795885c5c6d2
+https://github.com/ElementsProject/libwally-core/releases/download/release_0.4.0/wallycore-0.4.0-cp27-cp27m-macosx_10_12_x86_64.whl; sys_platform == 'darwin' and python_version == '2.7' --hash=sha256:031024543ff30ea8fbf96e934df6259f667247f4ace09b3400a6c3841cd948f8
+https://github.com/ElementsProject/libwally-core/releases/download/release_0.4.0/wallycore-0.4.0-cp36-cp36m-macosx_10_12_x86_64.whl; sys_platform == 'darwin' and python_version == '3.6' --hash=sha256:1f3b2c09793038948a9a2057fa9f6fae6461a510e31bdbf235f6a7eb9014f391
+https://github.com/ElementsProject/libwally-core/archive/release_0.4.0.tar.gz; platform_machine != 'x86_64' --hash=sha256:977e2f8be22755d1ff9329ce948974c7624dbf3375d451552cf31d2ffb93dd14
