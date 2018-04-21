@@ -8,7 +8,7 @@ service is provided for experimentation and development only. We reserve the
 right to restart or delete data from regtest as needed to maintain its utility
 as a testbed for users developing against the API.
 
-Please do not use real mnemonics or attempt to store secure, identifying or
+Please do not use a real mnemonic or attempt to store secure, identifying or
 important data on the regtest service.
 
 For more information on the GreenAddress service and our API, please read the
@@ -39,18 +39,18 @@ $ pip install --require-hashes -r tools/requirements.txt
 
 # Run examples
 
-First run `create_mnemonic.py` to create mnemonics for testing.
+First run `create_mnemonic.py` to create a mnemonic for testing.
 ```
-$ python create_mnemonics.py
+$ python create_mnemonic.py
 ```
 
 Register the user with the service.
 ```
-$ python login_register.py "words printed by create mnemonics ..."
+$ python login_register.py "words printed by create mnemonic ..."
 ```
 
 The examples are named after the module and function they demonstrate. You
-should run them by passing the mnemonics as the first argument.
+should run them by passing the mnemonic as the first argument.
 ```
 $ python module_function_name.py "your mnemonic words here ..."
 ```

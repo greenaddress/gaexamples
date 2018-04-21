@@ -5,16 +5,16 @@ import sys
 
 if __name__ == "__main__":
 
-    mnemonics = sys.argv[1]
+    mnemonic = sys.argv[1]
 
     conn = GAConnection(GAConnection.REGTEST_URI)
 
-    # Convert our mnemonics into an HD wallet
-    wallet = wallet_from_mnemonic(mnemonics)
+    # Convert our mnemonic into an HD wallet
+    wallet = wallet_from_mnemonic(mnemonic)
 
     # We give the service our master pubkey and chaincode so that
     # it can derive and monitor addresses for us. Note that we
-    # never expose our mnemonics or our private keys.
+    # never expose our mnemonic or our private keys.
     master_pubkey = bip32_key_get_pub_key(wallet)
     master_chaincode = bip32_key_get_chain_code(wallet)
 
