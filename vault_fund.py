@@ -6,13 +6,13 @@ import sys
 
 if __name__ == "__main__":
 
-    mnemonics = sys.argv[1]
+    mnemonic = sys.argv[1]
 
     # First, login a full user to fetch the address.
     # A watch only user can instead be used for funding so that you don't
-    # need to use your mnemonics to fetch addresses for your wallet, e.g.
+    # need to use your mnemonic to fetch addresses for your wallet, e.g.
     # if you are a service receiving funds watch only is safer.
-    conn, wallet, login_data = do_login(mnemonics)
+    conn, wallet, login_data = do_login(mnemonic)
 
     # Fetch the new address from the service
     subaccount = 0        # Main account

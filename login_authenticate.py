@@ -2,11 +2,11 @@
 from gacommon.utils import *
 import sys
 
-def do_login(mnemonics):
+def do_login(mnemonic):
     conn = GAConnection(GAConnection.REGTEST_URI)
 
-    # Convert our mnemonics into an HD wallet
-    wallet = wallet_from_mnemonic(mnemonics)
+    # Convert our mnemonic into an HD wallet
+    wallet = wallet_from_mnemonic(mnemonic)
 
     # Login the user. See gacommon/utils.py for the implementation
     return conn, wallet, login(wallet, conn, testnet=True)
@@ -14,8 +14,8 @@ def do_login(mnemonics):
 
 if __name__ == "__main__":
 
-    mnemonics = sys.argv[1]
+    mnemonic = sys.argv[1]
 
-    conn, wallet, login_data = do_login(mnemonics)
+    conn, wallet, login_data = do_login(mnemonic)
 
     print(login_data)
