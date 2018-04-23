@@ -27,7 +27,6 @@ if __name__ == "__main__":
 
     # Login the watch only user
     watch_only_conn = GAConnection(GAConnection.REGTEST_URI)
-    testnet = True
 
     token = {'username': watch_only_username,
              'password': watch_only_password}
