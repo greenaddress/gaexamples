@@ -58,6 +58,7 @@ def h(b):
 
 def wallet_from_mnemonic(mnemonic):
     """ Generate a BIP32 HD Master Key (wallet) from a mnemonic phrase """
+    bip39_mnemonic_validate(None, mnemonic)
     written, seed = bip39_mnemonic_to_seed512(mnemonic, None)
     assert written == BIP39_SEED_LEN_512
     return bip32_key_from_seed(seed, BIP32_VER_MAIN_PRIVATE,
